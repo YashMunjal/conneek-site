@@ -5,4 +5,12 @@
 .slide-one h1 {
   font-size: 2.4em;
 }
+
+#particles-js canvas {
+  background-color: red;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
 /*# sourceMappingURL=vendor.css.map */

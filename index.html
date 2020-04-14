@@ -10,32 +10,30 @@
 
 </head>
 <!--headers-->
+
 <body>
     <div class="reveal">
         <div class="slides">
             <section>
-                <section class="slide-one" id="particles-js" data-background-color="rgb(2, 17, 8)" data-background-size="cover">
-                    <!---Home page-->
-                    <h1>The Spread of Covid-19</h1>
-                    <h2>An interactive journey</h2>
-                        <button id="start-journey">Start the journey or scroll</button>
                 
-                
+                <section class="slide-one" data-background-color="rgb(2, 17, 8)"
+                    data-background-size="cover">
+                    
+                        <h1>The Spread of Covid-19</h1>
+                        <h2>An interactive journey</h2>
+                        <a href="#/1/2"><button id="start-journey">Start the journey or scroll</button></a>
+                  
                 </section>
-                <section>Slide 2</section>
+                <section data-background-color="#0e1011">
+                    <p class="fragment fade-in-then-semi-out">1 December 2019, Hubei,China</p>
+                    <p class="fragment fade-in-then-semi-out">The first case of Covid-19 appears</p>
+                </section>
             </section>
         </div>
     </div>
 </body>
 <!---------------------Scripts--------->
-    <script src="js/reveal.min.js"></script>
-    <script src="js/particles/particles.min.js"></script>
-    <script src="js/particles/particles.json"></script>
-    <script>
-        particlesJS.load('particles-js', 'js/particles/particles.json', function () {
-            console.log('callback - particles.js config loaded');
-        });
-    </script>
-    <script src="js/vendor.js"></script>
+<script src="js/reveal.min.js"></script>
+<script src="js/vendor.js"></script>
 
 </html>
