@@ -10,3 +10,9 @@ Reveal.initialize({
     maxScale: 1,
 });
 
+var presentSlide=Reveal.getCurrentSlide();
+
+Reveal.addEventListener('slide-two', ()=>{
+    console.log('hey');
+    document.querySelector('.audio-two').play();
+  });
