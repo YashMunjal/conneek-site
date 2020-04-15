@@ -8,11 +8,14 @@ Reveal.initialize({
     margin: 0,
     minScale: 1,
     maxScale: 1,
+    hash:true,
 });
 
-var presentSlide=Reveal.getCurrentSlide();
+var idleAudio=document.querySelector('.main');
 
-Reveal.addEventListener('slide-two', ()=>{
-    console.log('hey');
-    document.querySelector('.audio-two').play();
-  });
+Reveal.addEventListener( 'ready', function( event ) {
+    idleAudio.play();
+    idleAudio.loop=true;
+} );
+  
+
