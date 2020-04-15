@@ -14,4 +14,12 @@
 audio {
   display: none;
 }
+
+.slide-three p {
+  color: white;
+  background-color: rgba(250, 250, 250, 0.4);
+  width: 30vw;
+  margin: auto;
+  padding: 30px;
+}
 /*# sourceMappingURL=vendor.css.map */
