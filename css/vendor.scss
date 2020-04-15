@@ -1,9 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 .slide-one
 {
+    background-color: rgba(120,20,20,0.2);
     
+    height:30vh;
     color:white;
     h1{
-     font-size: 2.4em;   
+     font-size: 4.4rem;  
+     font-family: 'Lobster', cursive; 
+    }
+    h2{
+      font-size: 3.2rem;
+      font-family: 'Lobster', cursive;
+    }
+    button{
+      margin-top: 15px;
+      width:25%;
+      height: 35px;
+      font-size: 1.8rem;
+      font-weight:500;
+      text-align: center;
+      background-color: rgba(25,25,25,0.1);
+      color:whitesmoke;
+      border:1px solid white;
+      box-shadow: 10px 10px 20px rgba(25,25,25,0.1);
     }
 
 }
@@ -21,11 +42,15 @@ audio{
 
 .slide-three
 {
+  
   p{
     color:white;
-    background-color:rgba(250,250,250,0.4);
-    width:30vw;
+    background-color:rgba(25,25,25,0.5);
+    width:40vw;
+    height:40vh;
     margin:auto;
     padding:30px;
+    font-size: 1.2rem;
+    line-height:1.6rem;
   }
 }
