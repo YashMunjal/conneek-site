@@ -9,12 +9,15 @@ Reveal.initialize({
     minScale: 1,
     maxScale: 1,
     hash:true,
+    autoSlide: 15000,
+    autoSlideStoppable: false,
+    transition: 'zoom'
 });
 
 var idleAudio=document.querySelector('.main');
 
 Reveal.addEventListener( 'ready', function( event ) {
-    idleAudio.play();
+    //idleAudio.play();
     idleAudio.loop=true;
 } );
   
