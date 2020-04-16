@@ -11,14 +11,27 @@ Reveal.initialize({
     hash:true,
     autoSlide: 15000,
     autoSlideStoppable: false,
-    transition: 'zoom'
+    transition: 'zoom',
+    controlsBackArrows: 'visible'
+});
+const idleAudio=document.querySelector('.main-audio');
+const muteBtn=document.querySelector('.slide-one-mute');
+muteBtn.addEventListener('click',()=>{
+    muteBtn.classList.toggle('active');
+    if(muteBtn.classList.contains('active'))
+    {
+        idleAudio.play();
+    }
+    else if(muteBtn.classList.value==='slide-one-mute')
+    {
+        idleAudio.pause();
+    }
+    
+    idleAudio.loop=true;
 });
 
-var idleAudio=document.querySelector('.main');
 
-Reveal.addEventListener( 'ready', function( event ) {
-    //idleAudio.play();
-    idleAudio.loop=true;
-} );
+
+
   
 

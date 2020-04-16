@@ -1,32 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+/*----------------------------------variables:---*/
+/*----------------------------------------*/
 .slide-one {
-  background-color: rgba(120, 20, 20, 0.2);
-  height: 30vh;
+  background-color: rgba(41, 9, 9, 0.2);
   color: white;
 }
 
 .slide-one h1 {
   font-size: 4.4rem;
   font-family: 'Lobster', cursive;
+  text-shadow: 3px 1px 5px white;
+}
+
+.slide-one h1:hover, .slide-one h2:hover {
+  text-shadow: 1px 1px 1px white;
 }
 
 .slide-one h2 {
   font-size: 3.2rem;
   font-family: 'Lobster', cursive;
+  text-shadow: 3px 1px 4px white;
 }
 
 .slide-one button {
   margin-top: 15px;
-  width: 25%;
-  height: 35px;
+  width: 28%;
+  height: 40px;
   font-size: 1.8rem;
   font-weight: 500;
   text-align: center;
-  background-color: rgba(25, 25, 25, 0.1);
+  background-color: rgba(200, 200, 200, 0.5);
   color: whitesmoke;
-  border: 1px solid white;
+  border: 2px solid white;
   -webkit-box-shadow: 10px 10px 20px rgba(25, 25, 25, 0.1);
           box-shadow: 10px 10px 20px rgba(25, 25, 25, 0.1);
+}
+
+.slide-one .slide-one-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.slide-one .slide-one-options img {
+  height: 50px;
+  width: 50px;
+}
+
+.slide-one .slide-one-options .slide-one-mute {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+
+.slide-one .slide-one-options .slide-one-mute img {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
 }
 
 .slide-two .fragment {
@@ -41,11 +74,20 @@ audio {
 .slide-three p {
   color: white;
   background-color: rgba(25, 25, 25, 0.5);
-  width: 40vw;
-  height: 40vh;
+  width: 30vw;
+  height: auto;
   margin: auto;
-  padding: 30px;
+  padding: 20px;
   font-size: 1.2rem;
-  line-height: 1.6rem;
+  line-height: 1.5rem;
+}
+
+/*-----Media queries-------------*/
+@media (max-width: 768px) {
+  .slide-three p {
+    width: 90vw;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
 }
 /*# sourceMappingURL=vendor.css.map */

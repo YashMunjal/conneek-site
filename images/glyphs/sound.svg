@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="16" height="16" viewBox="0 0 16 16" id="svg6485" version="1.1" inkscape:version="0.91 r" sodipodi:docname="sound-Audio-media-music-player.svg">
+  <defs id="defs6487">
+    <inkscape:path-effect effect="spiro" id="path-effect6268" is_visible="true"/>
+    <inkscape:path-effect is_visible="true" id="path-effect6264" effect="spiro"/>
+    <inkscape:path-effect is_visible="true" id="path-effect6233" effect="spiro"/>
+    <inkscape:path-effect is_visible="true" id="path-effect6205" effect="spiro"/>
+    <inkscape:path-effect is_visible="true" id="path-effect6068" effect="spiro"/>
+    <inkscape:path-effect effect="spiro" id="path-effect6025" is_visible="true"/>
+    <inkscape:path-effect is_visible="true" id="path-effect5890" effect="spiro"/>
+    <inkscape:path-effect is_visible="true" id="path-effect5868" effect="spiro"/>
+    <inkscape:path-effect is_visible="true" id="path-effect5810" effect="spiro"/>
+    <inkscape:path-effect is_visible="true" id="path-effect5662" effect="spiro"/>
+    <inkscape:path-effect is_visible="true" id="path-effect5135" effect="spiro"/>
+    <inkscape:path-effect is_visible="true" id="path-effect5075" effect="spiro"/>
+    <inkscape:path-effect is_visible="true" id="path-effect5007" effect="spiro"/>
+    <inkscape:path-effect effect="spiro" id="path-effect4472" is_visible="true"/>
+    <inkscape:path-effect effect="spiro" id="path-effect4409" is_visible="true"/>
+    <inkscape:path-effect is_visible="true" id="path-effect4365" effect="spiro"/>
+    <inkscape:path-effect is_visible="true" id="path-effect4239" effect="spiro"/>
+    <inkscape:path-effect effect="spiro" id="path-effect4223" is_visible="true"/>
+    <inkscape:path-effect is_visible="true" id="path-effect4217" effect="spiro"/>
+    <inkscape:path-effect effect="spiro" id="path-effect4213" is_visible="true"/>
+    <inkscape:path-effect effect="spiro" id="path-effect5296" is_visible="true"/>
+    <inkscape:path-effect effect="spiro" id="path-effect7060" is_visible="true"/>
+    <inkscape:path-effect effect="spiro" id="path-effect4354" is_visible="true"/>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="13.412932" inkscape:cx="10.659766" inkscape:cy="10.967799" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" units="px" inkscape:window-width="1309" inkscape:window-height="744" inkscape:window-x="57" inkscape:window-y="24" inkscape:window-maximized="1" inkscape:snap-global="true" showguides="true" inkscape:guide-bbox="true" inkscape:snap-bbox="true" inkscape:snap-bbox-edge-midpoints="true" inkscape:bbox-nodes="true">
+    <inkscape:grid type="xygrid" id="grid4353" empspacing="4"/>
+  </sodipodi:namedview>
+  
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-1036.3622)">
+    <g transform="translate(36,0)" id="g4996"/>
+    <path style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="M 9 1.6367188 C 7.245903 2.9246188 5.4924172 4.2122 3.7382812 5.5 L 1 5.5 L 1 10.5 L 3.7382812 10.5 L 9 14.363281 L 9 9.7285156 A 2 2 0 0 0 10 8 A 2 2 0 0 0 9 6.2695312 L 9 1.6367188 z M 12.693359 2.5957031 L 12.001953 3.3144531 C 13.278263 4.5396531 13.999266 6.2326531 14 8.0019531 C 13.9987 9.7704531 13.277794 11.4628 12.001953 12.6875 L 12.693359 13.408203 C 14.165697 11.994803 14.999154 10.042853 15 8.0019531 C 14.999154 5.9610531 14.165697 4.0091031 12.693359 2.5957031 z M 10.601562 3.6191406 L 10 4.4160156 C 11.126206 5.2650156 11.788675 6.5915531 11.791016 8.0019531 C 11.788116 9.4115531 11.125687 10.737337 10 11.585938 L 10.601562 12.384766 C 11.977279 11.347766 12.78816 9.7247531 12.791016 8.0019531 C 12.788116 6.2791531 11.977278 4.6562406 10.601562 3.6191406 z " transform="translate(0,1036.3622)" id="rect6287"/>
+  </g>
+
+	<metadata>
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+			<rdf:Description about="https://iconscout.com/legal#licenses" dc:title="sound-Audio-media-music-player" dc:description="sound-Audio-media-music-player" dc:publisher="Iconscout" dc:date="2017-03-02" dc:format="image/svg+xml" dc:language="en">
+				<dc:creator>
+					<rdf:Bag>
+						<rdf:li>Devendra Karkar</rdf:li>
+					</rdf:Bag>
+				</dc:creator>
+			</rdf:Description>
+		</rdf:RDF>
+    </metadata></svg>
