@@ -11,7 +11,7 @@ gulp.task('message',async function(){
 //js minimization
 
 gulp.task('jsMin',async ()=>{
-    gulp.src('js/vendor.js')
+    gulp.src('js/*.js')
     .pipe(uglify())
     .pipe(gulp.dest('dist/js'));
 });
