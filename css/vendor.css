@@ -2,7 +2,6 @@
 /*-------------------------variables:---------*/
 /*----------------------------------------*/
 .slide-one {
-  background-color: rgba(41, 9, 9, 0.2);
   color: white;
 }
 
@@ -20,6 +19,13 @@
   font-size: 3.2rem;
   font-family: 'Lobster', cursive;
   text-shadow: 1px 1px 1px white;
+  margin-bottom: 10vh;
+}
+
+.slide-one p {
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 10px;
 }
 
 .slide-one button {

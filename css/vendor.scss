@@ -10,7 +10,6 @@ $breakpoint-mobile-s:376px;
 
 .slide-one
 {
-    background-color: rgba(41, 9, 9, 0.2);
     
     color:white;
     h1{
@@ -25,6 +24,13 @@ $breakpoint-mobile-s:376px;
       font-size: 3.2rem;
       font-family: 'Lobster', cursive;
       text-shadow: 1px 1px 1px white;
+      margin-bottom:10vh;
+    }
+    p{
+      font-size: 1rem;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+      margin: 10px;
     }
     button{
       margin: 15px;

@@ -12,7 +12,7 @@ Reveal.initialize({
     autoSlide: 15000,
     autoSlideStoppable: false,
     controlsBackArrows: 'visible',
-    backgroundTransition: 'zoom',
+    backgroundTransition: 'concave',
     viewDistance: 1
 });
 
