@@ -11,8 +11,9 @@ Reveal.initialize({
     hash:true,
     autoSlide: 15000,
     autoSlideStoppable: false,
-    transition: 'zoom',
-    controlsBackArrows: 'visible'
+    controlsBackArrows: 'visible',
+    backgroundTransition: 'zoom',
+    viewDistance: 1
 });
 
 //Constants

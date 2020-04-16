@@ -58,9 +58,6 @@
   height: 50px;
   width: 50px;
   margin: auto;
-  border: 2px dashed white;
-  border-radius: 50%;
-  padding: 10px;
 }
 
 .slide-one .slide-one-options .slide-one-mute img {
@@ -80,11 +77,11 @@ audio {
 .slide-three p {
   color: white;
   background-color: rgba(25, 25, 25, 0.5);
-  width: 30vw;
+  width: 60vw;
   height: auto;
   margin: auto;
   padding: 20px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.5rem;
 }
 
@@ -101,9 +98,13 @@ audio {
     width: 40vw;
     margin: 10px;
   }
+  .slide-two .fragment {
+    font-size: 2.4rem;
+    color: whitesmoke;
+  }
   .slide-three p {
     width: 90vw;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.25rem;
   }
 }
@@ -119,6 +120,11 @@ audio {
     width: 80vw;
     font-size: 1.2rem;
     margin: 7px;
+  }
+  .slide-three p {
+    width: 90vw;
+    font-size: 1rem;
+    line-height: 1.25rem;
   }
 }
 
