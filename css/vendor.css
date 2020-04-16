@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-/*----------------------------------variables:---*/
+/*-------------------------variables:---------*/
 /*----------------------------------------*/
 .slide-one {
   background-color: rgba(41, 9, 9, 0.2);
@@ -9,25 +9,27 @@
 .slide-one h1 {
   font-size: 4.4rem;
   font-family: 'Lobster', cursive;
-  text-shadow: 3px 1px 5px white;
+  text-shadow: 1px 1px 1px white;
 }
 
 .slide-one h1:hover, .slide-one h2:hover {
-  text-shadow: 1px 1px 1px white;
+  text-shadow: 0px 0px 0px white;
 }
 
 .slide-one h2 {
   font-size: 3.2rem;
   font-family: 'Lobster', cursive;
-  text-shadow: 3px 1px 4px white;
+  text-shadow: 1px 1px 1px white;
 }
 
 .slide-one button {
-  margin-top: 15px;
-  width: 28%;
-  height: 40px;
+  margin: 15px;
+  width: 35vw;
+  height: 45px;
   font-size: 1.8rem;
-  font-weight: 500;
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 400;
   text-align: center;
   background-color: rgba(200, 200, 200, 0.5);
   color: whitesmoke;
@@ -44,6 +46,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-align: stretch;
 }
 
 .slide-one .slide-one-options img {
@@ -55,6 +58,9 @@
   height: 50px;
   width: 50px;
   margin: auto;
+  border: 2px dashed white;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 .slide-one .slide-one-options .slide-one-mute img {
@@ -83,11 +89,51 @@ audio {
 }
 
 /*-----Media queries-------------*/
-@media (max-width: 768px) {
+@media (max-width: 769px) {
+  .slide-one h1 {
+    font-size: 3.4rem;
+  }
+  .slide-one h2 {
+    font-size: 2.6rem;
+  }
+  .slide-one button {
+    font-size: 1.5rem;
+    width: 40vw;
+    margin: 10px;
+  }
   .slide-three p {
     width: 90vw;
     font-size: 1rem;
     line-height: 1.25rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .slide-one h1 {
+    font-size: 2.4rem;
+  }
+  .slide-one h2 {
+    font-size: 1.6rem;
+  }
+  .slide-one button {
+    width: 80vw;
+    font-size: 1.2rem;
+    margin: 7px;
+  }
+}
+
+@media (max-width: 376px) {
+  .slide-one h1 {
+    font-size: 1.8rem;
+  }
+  .slide-one h2 {
+    font-size: 1.2rem;
+  }
+  .slide-one button {
+    width: 80vw;
+    font-weight: 200;
+    font-size: 1.1rem;
+    margin: 7px;
   }
 }
 /*# sourceMappingURL=vendor.css.map */

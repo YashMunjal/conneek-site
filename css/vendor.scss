@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-/*----------------------------------variables:---*/
-    
-$breakpoint-tablet: 768px;  
-
+/*-------------------------variables:---------*/
+$breakpoint-2k:2160px;
+$breakpoint-tablet: 769px;  
+$breakpoint-mobile:426px;
+$breakpoint-mobile-s:376px;
 /*----------------------------------------*/
 
 
@@ -15,22 +16,24 @@ $breakpoint-tablet: 768px;
     h1{
      font-size: 4.4rem;  
      font-family: 'Lobster', cursive; 
-     text-shadow: 3px 1px 5px white;
+     text-shadow: 1px 1px 1px white;
     }
     h1:hover,h2:hover{
-      text-shadow: 1px 1px 1px white;
+      text-shadow: 0px 0px 0px white;
     }
     h2{
       font-size: 3.2rem;
       font-family: 'Lobster', cursive;
-      text-shadow: 3px 1px 4px white;
+      text-shadow: 1px 1px 1px white;
     }
     button{
-      margin-top: 15px;
-      width:28%;
-      height: 40px;
+      margin: 15px;
+      width:35vw;
+      height: 45px;
       font-size: 1.8rem;
-      font-weight:500;
+      border-radius: 10px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-weight:400;
       text-align: center;
       background-color: rgba(200,200,200,0.5);
       color:whitesmoke;
@@ -41,8 +44,7 @@ $breakpoint-tablet: 768px;
     {
       display: flex;
       flex-direction: column;
-    }
-    .slide-one-options{
+      -ms-flex-align: stretch;
       img{
         height:50px;
         width:50px;
@@ -54,9 +56,12 @@ $breakpoint-tablet: 768px;
         height:50px;
         width:50px;
         margin: auto;
+        border:2px dashed white;
+        border-radius: 50%;
+        padding: 10px;
       }
-    }
 
+    }
 }
 
 .slide-two{
@@ -90,6 +95,19 @@ audio{
 /*-----Media queries-------------*/
 @media(max-width:$breakpoint-tablet)
 {
+  .slide-one{
+    h1{
+      font-size: 3.4rem;  
+     }
+     h2{
+       font-size: 2.6rem;
+     }
+     button{
+       font-size: 1.5rem;
+       width:40vw;
+       margin: 10px;
+     }
+  }
   .slide-three{
     p{
       width:90vw;
@@ -99,3 +117,37 @@ audio{
   }
 }
 
+@media(max-width:$breakpoint-mobile)
+{
+  .slide-one{
+    h1{
+      font-size: 2.4rem;  
+     }
+     h2{
+       font-size: 1.6rem;
+     }
+     button{
+       width:80vw;
+       font-size: 1.2rem;
+       margin: 7px;
+     }
+  }
+}
+
+@media(max-width:$breakpoint-mobile-s)
+{
+  .slide-one{
+    h1{
+      font-size: 1.8rem;  
+     }
+     h2{
+       font-size: 1.2rem;
+     }
+     button{
+       width:80vw;
+       font-weight:200 ;
+       font-size: 1.1rem;
+       margin: 7px;
+     }
+  }
+}
