@@ -9,7 +9,7 @@ Reveal.initialize({
     minScale: 1,
     maxScale: 1,
     hash:true,
-    autoSlide: 15000,
+    autoSlide: 5000,
     autoSlideStoppable: false,
     controlsBackArrows: 'visible',
     backgroundTransition: 'concave',
