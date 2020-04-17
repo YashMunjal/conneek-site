@@ -1,8 +1,15 @@
+require('dotenv').config()
+
+process.env.ABRAIA_KEY='NWM2MjRjMmRjNWMwMDAwMDpBV1RlaHJBNHdTV3NpR1ZkQThTQlJxaTdvVVhQaFJMOA=='
+
 const gulp = require('gulp');
 const uglify=require('gulp-uglify-es').default;
 const csso=require('gulp-csso');
 const autoprefixer=require('gulp-autoprefixer');
 var htmlmin = require('gulp-html-minifier');
+const cache = require('gulp-cache')
+const abraia = require('gulp-abraia')
+
 
 gulp.task('message',async function(){
     return console.log('Gulp Started');
@@ -42,6 +49,32 @@ gulp.task('minifyHtml', async function() {
     gulp.src('*.html')
       .pipe(htmlmin({collapseWhitespace: true}))
       .pipe(gulp.dest('./dist'))
+      gulp.src('/pages/*.html')
+      .pipe(htmlmin({collapseWhitespace: true}))
+      .pipe(gulp.dest('./dist/pages'))
   });
 
-  gulp.task('default',gulp.series('message','minifyHtml','jsMin','cssMin'));
+
+  //Optimize-videos
+  gulp.task('vidMin', () => {
+    return gulp.src('videos/*.mp4')
+      .pipe(abraia([
+      ]))
+      .pipe(gulp.dest('./dist/images'))
+  })
+
+
+  //image responsiveness for later used
+
+  gulp.task('variants', () => {
+    return gulp.src('images/**')
+      .pipe(abraia([
+        { width: 1920, output: '{name}-1920.{ext}' },
+        { width: 1125, output: '{name}-1125.{ext}' },
+        { width: 750, output: '{name}-750.{ext}' },
+        { width: 375, output: '{name}-375.{ext}' }
+      ]))
+      .pipe(gulp.dest('output'))
+  })
+
+  gulp.task('default',gulp.series('message','minifyHtml','jsMin','cssMin','vidMin'));
