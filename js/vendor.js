@@ -50,8 +50,10 @@ muteBtn.addEventListener('click',()=>{
     idleAudio.loop=true;
 });
 
-
-
-
-  
+Reveal.addEventListener( 'slidechanged', function( e ) {
+    if(e.currentSlide.classList.contains('slide-six'))
+    {
+        window.location.href = '/pages/home.html';
+    }
+} );
 
